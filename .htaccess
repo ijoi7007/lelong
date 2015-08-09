@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gapps\.gohartanah\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gapps\.gohartanah\.com$
+RewriteRule ^/?$ "http\:\/\/gapps\.gohartanah\.com\/index\.php" [R=301,L]
+
