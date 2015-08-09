@@ -4377,3 +4377,21 @@ REQUEST_URI=/gapps290315/index.php?r=lelong/index
 in /Applications/MAMP/htdocs/gapps290315/protected/views/lelong/index.php (39)
 in /Applications/MAMP/htdocs/gapps290315/protected/controllers/LelongController.php (128)
 in /Applications/MAMP/htdocs/gapps290315/index.php (13)
+2015/08/09 21:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register/create".' in /Applications/MAMP/htdocs/otailelong/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/otailelong/framework/web/CWebApplication.php(141): CWebApplication->runController('register/create')
+#1 /Applications/MAMP/htdocs/otailelong/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/otailelong/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/otailelong/index.php?r=register/create
+HTTP_REFERER=http://localhost/otailelong/index.php?r=lelong/index
+---
+2015/08/09 21:10:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register/create".' in /Applications/MAMP/htdocs/otailelong/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/otailelong/framework/web/CWebApplication.php(141): CWebApplication->runController('register/create')
+#1 /Applications/MAMP/htdocs/otailelong/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/otailelong/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/otailelong/index.php?r=register/create
+HTTP_REFERER=http://localhost/otailelong/index.php?r=lelong/index
+---

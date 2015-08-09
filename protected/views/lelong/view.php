@@ -8,11 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Lelong', 'url'=>array('index')),
-	array('label'=>'Create Lelong', 'url'=>array('create')),
-	array('label'=>'Update Lelong', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Lelong', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Lelong', 'url'=>array('admin')),
+	array('label'=>'All Lelong', 'url'=>array('index')),
 );
 ?>
 
