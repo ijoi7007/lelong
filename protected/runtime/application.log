@@ -4395,3 +4395,20 @@ Stack trace:
 REQUEST_URI=/otailelong/index.php?r=register/create
 HTTP_REFERER=http://localhost/otailelong/index.php?r=lelong/index
 ---
+2015/08/09 21:20:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Applications/MAMP/htdocs/otailelong/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/MAMP/htdocs/otailelong/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/otailelong/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/otailelong/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/otailelong/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/otailelong/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/otailelong/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/otailelong/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/otailelong/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/otailelong/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /Applications/MAMP/htdocs/otailelong/framework/web/CWebApplication.php(141): CWebApplication->runController('lelong/view')
+#10 /Applications/MAMP/htdocs/otailelong/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/otailelong/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/otailelong/index.php?r=lelong/view&reference_no=DC10030800
+---
